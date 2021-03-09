@@ -1,6 +1,7 @@
 <?php
 session_start ();
 include('../config/DbFunction.php');
+print_log('Test changes');
 	$obj=new DbFunction();
 	$rs=$obj->showCourse();
 	$rs1=$obj->showCourse();
